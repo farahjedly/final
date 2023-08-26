@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="essay.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="grid-container">
+            <div><a href="#about"><button class="contact">  About us</button></a></div>
+            <a href="home .html"><div style="display: flex;justify-content: center; align-items: center; text-decoration: none;"><h2>BACK</h2><h3>TO</h3><h2>BLACK</h2></div></a>
+            <div class="overlay"></div>
+                <nav class="nav">
+                    <div class="toggle">
+                        <span class="toggler">»</span>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="login.html"><img class="icon" src="assets/person-outline.png" alt="liked" width="100%"></a></li>
+                        <li><a href="liked.html"><img class="icon" src="assets/heart1.png" alt="liked" width="100%"></a></li>
+                        <li><div class="shopping icon">
+                            <img class="icon" src="assets/bag.png">
+                            <span class="quantity">0</span>
+                            </div>
+                        </li>
+                    </ul>
+        <div class="overlay"></div>
+        <nav class="nav">
+          <div class="toggle">
+            <span class="toggler">»</span>
+          </div>
+          <div class="logo">
+            <a href="#">CodeHim</a>
+          </div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        
+       
+        <script>
+            let toggler = document.querySelector(".toggler");
+ 
+ window.addEventListener("click", event => {
+   if(event.target.className == "toggler" || event.target.className == "toggle") {
+     document.body.classList.toggle("show-nav");
+   } else if (event.target.className == "overlay") {
+     document.body.classList.remove("show-nav");
+   }
+   // Change Toggler Icon
+   if(document.body.className == "show-nav") {
+     toggler.innerHTML = "&laquo";
+   } else {
+     toggler.innerHTML = "&raquo";
+   }
+ });
+        </script>
+    </body>
+</html>

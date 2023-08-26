@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400&display=swap');
+/*navbar*/
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    background-color: white;
+    width: 100%;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    padding: 0;
+    float: right;
+}
+   
+.logo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -70px;
+    cursor: pointer;
+    flex-wrap: nowrap;
+}
+
+.logo2{
+    width: 300px;
+}
+
+.icon{
+    width: 20px;
+    margin-right: 30px;
+    display: inline-block;
+    flex-wrap: nowrap;
+    margin-top: 14px;
+}
+
+.menu{
+    font-family: Montserrat;
+    font-weight: 200;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.contact{
+    font-family: montserrat;
+    font-size: 12px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 15px;
+    margin-top: 23px;
+    margin-left: 10%;
+}
+
+h2{
+    font-family: montserrat;
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+
+h3{
+    font-family: montserrat;
+    font-size: 18px;
+    font-weight: 100; 
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #000;
+    text-decoration: none;
+
+}
+a {
+  text-decoration: none;
+}
+/* 1st section */
+.element-style {
+    box-sizing: border-box;
+    padding: 0px;
+    border: none;
+    margin: 0;
+    display: block;
+    /* width: 0px;
+    height: 0px; */
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+   
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+
+/* 2nd section */
+.grid-container2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+}
+
+.summer{
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.ktiba{
+    font-family: montserrat;
+    text-align: center;
+   margin-left: 10%;
+   margin-right: 10%;
+}
+
+.ktiba2{
+    font-family: montserrat;
+    text-align: center;
+   margin-left: 10%;
+   margin-right: 10%;
+   margin-top: 5px;
+}
+
+.div1{
+    margin: 5%;
+    border: 1px solid;
+    padding: 10px;
+}
+
+.div2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+   
+}
+
+.discover{
+    font-family: montserrat;
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 300;
+    background-color:black;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 100px;
+    margin-left: 42%;
+    border-radius: 2px;
+}
+/*3rd section*/
+.img_box img{
+    max-width: 100%;
+}
+.slider_container .container {
+    padding: 0 15px;
+    max-width: 1230px;
+    margin: 0 auto;
+}
+.card_slider{
+    padding: 50px 0;
+}
+
+/* 4th section */
+.div3{
+    margin: 5%;
+    border: 1px solid;
+    padding: 10px;
+}
+
+.div4{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+   
+}
+
+.grid-container3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+/* footer */
+.grid-container4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 50px;
+    background-color: black;
+}
+
+.grid-container5{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin-top: 10px;
+  background-color: black;
+}
+
+.titles{
+    padding-top: 20px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    list-style: none;
+    line-height: 35px;
+}
+.hl {
+    border-top: 0.5px solid #ccc; /* Add a 1px solid top border to create the line */
+    background-color: black;
+    margin-top: 20px ; /* Optional margin for spacing */
+    margin-bottom: 20px;
+  }
+
+  /* 5th section */
+  .div5{
+    background-color: white;
+    width: 38%;
+    margin-left: 58.5%;
+    margin-top: 80px;
+    min-height: 520px;
+  }
+
+ .my{
+    display: flex;
+    font-family: montserrat;
+    font-weight: 600;
+    font-size: 60px;
+    padding-left: 10px;
+    line-height: 0.5px;
+    padding-top: 60px;
+ }
+  .my2{
+    display: flex;
+    font-family: montserrat;
+    font-weight: 600;
+    font-size: 60px;
+    padding-left: 10px;
+    line-height: 0.5px;
+    padding-top: 00px;
+  }
+
+  .sondouk{
+    width: 90%;
+    min-height: 40px;
+    margin-bottom: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 15px;
+  }
+
+  .log{
+    width: 82%;
+    min-height: 40px;
+    margin-bottom: 20px;
+    margin-right: 8%;
+    margin-left: 10%;
+    background-color: black;
+    color: white;
+    font-family: montserrat;
+    border: none;
+  }
+
+  .forgot{
+    font-family: montserrat;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .vertical-line {
+    border-left: 1.5px solid #000;
+    height: 25PX;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-left: 30px;
+    color: grey;
+    
+
+  }
+  a:visited{
+    color: inherit;
+  }
+
+  .in{
+    font-family: montserrat;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-left: 30%;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    
+  }
+  .up{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-left: 0;
+    text-decoration: none;
+    color: grey;
+    font-family: montserrat;
+    font-weight: bold;
+  }
+
+  .in2{
+    font-family: montserrat;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-left: 30%;
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+    
+  }
+  .up2{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-left: 0;
+    text-decoration: none;
+    color: black;
+    font-family: montserrat;
+    font-weight: bold;
+  }
+
+  .sondouk2{
+    width: 90%;
+    min-height: 40px;
+    margin-bottom: 5px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5px;
+  }
+
+  .my3{
+    display: flex;
+    font-family: montserrat;
+    font-weight: 600;
+    font-size: 40px;
+    padding-left: 10px;
+    line-height: 0.5px;
+    padding-top: 18px;
+  }
+
+  /* .dropdown{
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    list-style-type: none;
+    padding: 10px;
+    min-width: 200px;
+    margin-left: -100px;
+    position: fixed;
+    margin-top: 15px;
+    background-color: white;
+    box-shadow: 0 5px 10px 0 #d3cfc9
+  }
+  
+.dropdown-content li {
+    display: block;
+
+  }
+
+  li.dropdown:hover .dropdown-content {
+   display: block;
+  }
+
+  .sub-menu-wrap{
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    width: 320px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+  }
+  .sub-menu-wrap.open-menu{
+    max-height: 400px;
+  }
+
+  .sub-menu{
+    background-color: #d3cfc9;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .user-info{
+    display: flex;
+    align-items: center;
+  }
+  .sub-menu hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin: 15px 0 10px;
+  }
+
+  .sub-menu-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #525252;
+    margin: 12px 0;
+  }
+
+  .sub-menu-link p{
+    width: 100%;
+  }
+  .sub-menu-link span{
+    font-size: 22px;
+    transition: transform 0.5s;
+  }
+  .sub-menu-link :hover span{
+    transform: translateX(5px);
+  }
+
+  .sub-menu-link :hover p{
+    font-weight: bold;
+  }
+
+  .user-pic{
+    width: 40px;
+    cursor: pointer;
+  } */
+  .dropdown{
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    list-style-type: none;
+    padding: 5px;
+    min-width: 200px;
+    margin-left: -170px;
+    position: fixed;
+    margin-top: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    min-height: 250px;
+    line-height: 50px;
+  }
+  
+.dropdown-content li {
+    display: block;
+    text-decoration: none;
+  }
+
+  li.dropdown:hover .dropdown-content {
+   display: block;
+  }
